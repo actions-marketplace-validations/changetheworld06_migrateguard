@@ -20,6 +20,10 @@ inputs:
     description: 'Path to the migrations folder, relative to repo root.'
     required: false
     default: 'prisma/migrations'
+  licensing-server-url:
+    description: 'Override the default licensing server URL. Leave empty to use the official one.'
+    required: false
+    default: ''
 
 runs:
   using: 'node20'
