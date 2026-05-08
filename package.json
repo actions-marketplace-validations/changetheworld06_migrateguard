@@ -1,0 +1,30 @@
+{
+  "name": "migrateguard",
+  "version": "0.1.0",
+  "description": "AI-powered review of database migrations on every PR",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "package": "ncc build src/index.ts -o dist --source-map --license licenses.txt",
+    "all": "npm run build && npm run package"
+  },
+  "keywords": [
+    "github-action",
+    "prisma",
+    "migration",
+    "database",
+    "ai"
+  ],
+  "author": "Sébastien Gonin",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "@vercel/ncc": "^0.38.4",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.1",
+    "@anthropic-ai/sdk": "^0.95.1"
+  }
+}
