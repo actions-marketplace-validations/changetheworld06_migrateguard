@@ -1,0 +1,32 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bouclier orange -->
+  <path d="M256 32 L96 96 L96 240 C96 336 168 416 256 480 C344 416 416 336 416 240 L416 96 Z"
+        fill="#FF6B35"
+        stroke="#D84315"
+        stroke-width="8"
+        stroke-linejoin="round"/>
+
+  <!-- Cylindre 1 (haut) - base de données -->
+  <ellipse cx="256" cy="180" rx="80" ry="22" fill="#FFFFFF"/>
+  <path d="M176 180 L176 220 C176 232 212 242 256 242 C300 242 336 232 336 220 L336 180"
+        fill="#FFFFFF"
+        stroke="#FFFFFF"
+        stroke-width="2"/>
+  <ellipse cx="256" cy="220" rx="80" ry="22" fill="none" stroke="#FF6B35" stroke-width="3"/>
+
+  <!-- Cylindre 2 (milieu) -->
+  <path d="M176 240 L176 280 C176 292 212 302 256 302 C300 302 336 292 336 280 L336 240"
+        fill="#FFFFFF"
+        stroke="#FFFFFF"
+        stroke-width="2"/>
+  <ellipse cx="256" cy="240" rx="80" ry="22" fill="none" stroke="#FF6B35" stroke-width="3"/>
+  <ellipse cx="256" cy="280" rx="80" ry="22" fill="none" stroke="#FF6B35" stroke-width="3"/>
+
+  <!-- Cylindre 3 (bas) -->
+  <path d="M176 300 L176 340 C176 352 212 362 256 362 C300 362 336 352 336 340 L336 300"
+        fill="#FFFFFF"
+        stroke="#FFFFFF"
+        stroke-width="2"/>
+  <ellipse cx="256" cy="300" rx="80" ry="22" fill="none" stroke="#FF6B35" stroke-width="3"/>
+  <ellipse cx="256" cy="340" rx="80" ry="22" fill="none" stroke="#FF6B35" stroke-width="3"/>
+</svg>
