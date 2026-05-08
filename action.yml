@@ -7,7 +7,7 @@ branding:
 
 inputs:
   github-token:
-    description: 'GitHub token used to read the PR and post the review comment. Use ${{ secrets.GITHUB_TOKEN }}.'
+    description: 'GitHub token used to read the PR and post the review comment.'
     required: true
   anthropic-api-key:
     description: 'Anthropic API key used to call Claude. Store as a repository secret.'
@@ -17,7 +17,7 @@ inputs:
     required: false
     default: 'claude-sonnet-4-5-20250929'
   migrations-path:
-    description: 'Path to the migrations folder (relative to repo root).'
+    description: 'Path to the migrations folder, relative to repo root.'
     required: false
     default: 'prisma/migrations'
 
